@@ -12,7 +12,7 @@ const barChartSpec = {
   "title": "Victorian Micropodinae Population 1994 - 2024",
   "data": {
     "name": "records",
-    "url": "https://lpot0006.github.io/3179/data/records-2024-10-10.csv"
+    "url": "data/records-2024-10-10.csv"
   },
   "params": [
     {
@@ -110,7 +110,7 @@ const totalPopulationBarChartSpec = {
   "height": 550,
   "title": "Victorian Micropodinae Population",
   "data": {
-    "url": "https://lpot0006.github.io/3179/data/count.csv"
+    "url": "data/count.csv"
   },
   "mark": {
     "type": "bar",

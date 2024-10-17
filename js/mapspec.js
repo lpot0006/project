@@ -7,7 +7,7 @@ const mapSpec = {
 "layer": [
     {
     "data": {
-        "url": "https://lpot0006.github.io/3179/map/victoria-australia_1308.json",
+        "url": "map/victoria-australia_1308.json",
         "format": {"type": "topojson", "feature": "victoria-australia_1308"}
     },
     "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "black"}
@@ -15,7 +15,7 @@ const mapSpec = {
     {
     "data": {
         "name": "records",
-        "url": "https://lpot0006.github.io/3179/data/records-2024-10-10.csv"
+        "url": "data/records-2024-10-10.csv"
     },
     "mark": {"type": "circle"},
     "encoding": {
