@@ -9,7 +9,15 @@ const barChartSpec = {
     "right": 40,
     "bottom": 20
   },
-  "title": "Victorian Micropodinae Population 1994 - 2024",
+  "title": {
+    "text": "Victorian Macropodinae Population 1994 - 2024",
+    "fontSize": 24,
+    "fontWeight": "bold",
+    "font": "Arial",
+    "color": "#1f77b4",
+    "anchor": "middle",
+    "dy": -10
+  },
   "data": {
     "name": "records",
     "url": "data/records-2024-10-10.csv"
@@ -63,7 +71,11 @@ const barChartSpec = {
     "x": {
       "field": "year",
       "type": "nominal",
-      "title": "Year",
+      "fontsize": 16,
+      "title": {
+        "text": "Year",
+        "fontsize": 18
+      },
       "axis": {
         "labelAngle": -30
       }
@@ -71,7 +83,11 @@ const barChartSpec = {
     "y": {
       "field": "totalIndividuals",
       "type": "quantitative",
-      "title": "Population Count"
+      "fontsize": 16,
+      "title": {
+        "text": "Population Count",
+        "fontsize": 18
+      },
     },
     "color": {
       "field": "vernacularName",
@@ -109,7 +125,7 @@ const totalPopulationBarChartSpec = {
   "width": 1000,
   "height": 550,
   "title": {
-    "text": "Victorian Micropodinae Population 1994 - 2024",
+    "text": "Total Macropodinae Population 1994 - 2024",
     "fontSize": 24,
     "fontWeight": "bold",
     "font": "Arial",
@@ -128,7 +144,11 @@ const totalPopulationBarChartSpec = {
     "x": {
       "field": "vernacularName",
       "type": "nominal",
-      "title": "",
+      "fontsize": 16,
+      "title": {
+        "text": "Species",
+        "fontsize": 18
+      },
       "axis": {
         "labelAngle": -30
       },
@@ -137,7 +157,11 @@ const totalPopulationBarChartSpec = {
     "y": {
       "field": "totalCount",
       "type": "quantitative",
-      "title": "Population Count"
+      "fontsize": 16,
+      "title": {
+        "text": "Population Count",
+        "fontsize": 18
+      },
     },
     "color": {
       "field": "vernacularName",
