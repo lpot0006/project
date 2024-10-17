@@ -11,7 +11,7 @@ const barChartSpec = {
   },
   "title": {
     "text": "Victorian Macropodnae Population 1994 - 2024",
-    "fontSize": 14,
+    "fontSize": 24,
     "fontWeight": "bold",
     "font": "Arial",
     "color": "#1f77b4",
