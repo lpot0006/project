@@ -31,8 +31,8 @@ function loadTreeDiagram() {
     return vegaEmbed("#tree-diagram", treeSpec).then(result => {
       result.view.addSignalListener("selected_species", (name, value) => {
         // Filter map data
-        const filteredData = value === "Macropodnae"
-          ? mapData  // Show all data if the root node (Macropodnae) is selected
+        const filteredData = value === "Macropodinae"
+          ? mapData  // Show all data if the root node (Macropodinae) is selected
           : mapData.filter(data => data.vernacularName === value);  // Filter for the selected species
   
         // Update the map with the filtered data
