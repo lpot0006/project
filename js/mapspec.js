@@ -3,6 +3,15 @@ const mapSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 1000,
     "height": 550,
+    "title": {
+        "text": "Victorian Macropodnae Sightings",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "font": "Arial",
+        "color": "#1f77b4",
+        "anchor": "middle",
+        "dy": -10
+    },
     "projection": {"type": "mercator"},
     "layer": [
       {
