@@ -181,6 +181,7 @@ const treeSpec = {
             "text": {"value": "Macropodinae Biodiversity of Victoria"},
             "fontSize": {"value": 30},
             "fontWeight": {"value": "bold"},
+            "fill": {"value": "#1f77b4"},
             "align": {"value": "center"},
             "baseline": {"value": "top"},
             "x": {"value": 500},  // Center the title
