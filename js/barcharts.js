@@ -77,17 +77,20 @@ const barChartSpec = {
         "fontsize": 18
       },
       "axis": {
+        "title": "Year",
+        "labelFontSize": 14,
+        "titleFontSize": 16,
         "labelAngle": -30
       }
     },
     "y": {
       "field": "totalIndividuals",
       "type": "quantitative",
-      "fontsize": 16,
-      "title": {
-        "text": "Population Count",
-        "fontsize": 18
-      },
+      "axis": {
+        "title": "Population Size",
+        "labelFontSize": 14,
+        "titleFontSize": 16
+      }
     },
     "color": {
       "field": "vernacularName",
@@ -105,7 +108,16 @@ const barChartSpec = {
         "range": [
           "#fccde5", "#bebada", "#bc80bd", "#ffed6f", "#fdb462", "#fb8072"
         ]
+      },
+      "legend": {
+        "labelFontSize": 14,   // Font size for legend labels
+        "titleFontSize": 16,   // Font size for legend title
+        "symbolSize": 120      // Size of the legend symbols (optional customization)
       }
+    },
+    "legend": {
+        "titleFontSize": 16,        // Font size for the legend title
+        "labelFontSize": 14,
     },
     "order": {
       "field": "totalIndividuals",
@@ -144,12 +156,10 @@ const totalPopulationBarChartSpec = {
     "x": {
       "field": "vernacularName",
       "type": "nominal",
-      "fontsize": 16,
-      "title": {
-        "text": "Species",
-        "fontsize": 18
-      },
       "axis": {
+        "title": "Species",
+        "labelFontSize": 14,
+        "titleFontSize": 16,
         "labelAngle": -30
       },
       "sort": "-y"
@@ -157,11 +167,11 @@ const totalPopulationBarChartSpec = {
     "y": {
       "field": "totalCount",
       "type": "quantitative",
-      "fontsize": 16,
-      "title": {
-        "text": "Population Count",
-        "fontsize": 18
-      },
+      "axis": {
+        "title": "Population Size",
+        "labelFontSize": 14,
+        "titleFontSize": 16,
+      }
     },
     "color": {
       "field": "vernacularName",
@@ -183,7 +193,13 @@ const totalPopulationBarChartSpec = {
       }
     },
     "tooltip": [
-      {"field": "vernacularName", "type": "nominal", "title": "Species"},
+      {
+        "field": "vernacularName",
+        "type": "nominal",
+        "title": "Species",
+        "labelFontSize": 14,
+        "titleFontSize": 16,
+      },
       {"field": "totalCount", "type": "quantitative", "format": ",", "title": "Count"}
     ]
   }
