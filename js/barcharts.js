@@ -20,7 +20,7 @@ const barChartSpec = {
   },
   "data": {
     "name": "records",
-    "url": "data/records-2024-10-10.csv"
+    "url": "https://github.com/lpot0006/project/blob/main/data/records-2024-10-10.csv"
   },
   "params": [
     {
