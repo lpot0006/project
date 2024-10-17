@@ -108,7 +108,15 @@ const totalPopulationBarChartSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 1000,
   "height": 550,
-  "title": "Victorian Micropodinae Population",
+  "title": {
+    "text": "Victorian Micropodinae Population 1994 - 2024",
+    "fontSize": 24,
+    "fontWeight": "bold",
+    "font": "Arial",
+    "color": "#1f77b4",
+    "anchor": "middle",
+    "dy": -10
+  },
   "data": {
     "url": "data/count.csv"
   },
