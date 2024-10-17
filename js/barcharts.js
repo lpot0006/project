@@ -71,11 +71,6 @@ const barChartSpec = {
     "x": {
       "field": "year",
       "type": "nominal",
-      "fontsize": 16,
-      "title": {
-        "text": "Year",
-        "fontsize": 18
-      },
       "axis": {
         "title": "Year",
         "labelFontSize": 14,
@@ -114,10 +109,6 @@ const barChartSpec = {
         "titleFontSize": 16,   // Font size for legend title
         "symbolSize": 120      // Size of the legend symbols (optional customization)
       }
-    },
-    "legend": {
-        "titleFontSize": 16,        // Font size for the legend title
-        "labelFontSize": 14,
     },
     "order": {
       "field": "totalIndividuals",
