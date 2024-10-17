@@ -45,7 +45,7 @@ const mapSpec = {
             ],
             "range": [
             "#fccde5", "#bebada", "#bc80bd", "#ffed6f", "#fdb462", "#fb8072"
-            ]
+            ],
         }
         },
         "tooltip": [
