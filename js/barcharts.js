@@ -20,7 +20,7 @@ const barChartSpec = {
   },
   "data": {
     "name": "records",
-    "url": "https://github.com/lpot0006/project/blob/main/data/records-2024-10-10.csv"
+    "url": "https://lpot0006.github.io/project/data/records-2024-10-10.csv"
   },
   "params": [
     {
@@ -134,7 +134,7 @@ const totalPopulationBarChartSpec = {
     "dy": -10
   },
   "data": {
-    "url": "data/count.csv"
+    "url": "https://lpot0006.github.io/project/data/count.csv"
   },
   "mark": {
     "type": "bar",
