@@ -1,0 +1,21 @@
+#loader {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    position: fixed;          /* Make the loader cover the whole screen */
+    top: 0;
+    left: 0;
+    width: 100%;              /* Full width */
+    height: 100%;             /* Full height */
+    background-color: rgba(255, 255, 255, 1); /* White mask with slight transparency */
+    z-index: 9999;            /* Ensure it sits on top of everything */
+    display: flex;            /* Flexbox to center content */
+    justify-content: center;  /* Horizontally center the loader */
+    align-items: center;      /* Vertically center the loader */
+}
+
+.chart-container {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto; /* Center the charts if needed */
+}
