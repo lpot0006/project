@@ -193,13 +193,7 @@ const totalPopulationBarChartSpec = {
       }
     },
     "tooltip": [
-      {
-        "field": "vernacularName",
-        "type": "nominal",
-        "title": "Species",
-        "labelFontSize": 14,
-        "titleFontSize": 16,
-      },
+      {"field": "vernacularName", "type": "nominal", "title": "Species"},
       {"field": "totalCount", "type": "quantitative", "format": ",", "title": "Count"}
     ]
   }
