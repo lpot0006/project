@@ -10,7 +10,7 @@ const barChartSpec = {
     "bottom": 20
   },
   "title": {
-    "text": "Victorian Macropodinae Population 1994 - 2024",
+    "text": "Victorian Macropodnae Population 1994 - 2024",
     "fontSize": 24,
     "fontWeight": "bold",
     "font": "Arial",
@@ -137,7 +137,7 @@ const totalPopulationBarChartSpec = {
   "width": 1000,
   "height": 550,
   "title": {
-    "text": "Total Macropodinae Population",
+    "text": "Total Macropodnae Population",
     "fontSize": 24,
     "fontWeight": "bold",
     "font": "Arial",
