@@ -24,7 +24,7 @@ const treeSpec = {
       },
       {
         "name": "selected_species",  // Signal for the selected species
-        "value": "Macropodnae",  // Default to show all species
+        "value": "Macropodinae",  // Default to show all species
         "on": [
           {"test": "datum.depth == 0", "events": "symbol:click", "update": "datum.name"},  // Update on node click
           {"test": "datum.depth == 1", "events": "symbol:click", "update": "datum.name"},  // Update on node click
@@ -37,7 +37,7 @@ const treeSpec = {
       {
         "name": "tree",
         "values": [
-          {"id": "1", "parent": null, "name": "Macropodnae"},
+          {"id": "1", "parent": null, "name": "Macropodinae"},
           {"id": "2", "parent": "1", "name": "Macropus"},
           {"id": "3", "parent": "2", "name": "Eastern Grey Kangaroo"},
           {"id": "4", "parent": "2", "name": "Western Grey Kangaroo"},
@@ -87,7 +87,7 @@ const treeSpec = {
       {
         "name": "color",
         "type": "ordinal",
-        "domain": ["Macropodnae", "Macropus", "Eastern Grey Kangaroo", "Western Grey Kangaroo", "Wallabia", "Swamp Wallaby", "Petrogale", "Brush-tailed Rock-wallaby", "Osphranter", "Red Kangaroo", "Notamacropus", "Red-necked Wallaby"],
+        "domain": ["Macropodinae", "Macropus", "Eastern Grey Kangaroo", "Western Grey Kangaroo", "Wallabia", "Swamp Wallaby", "Petrogale", "Brush-tailed Rock-wallaby", "Osphranter", "Red Kangaroo", "Notamacropus", "Red-necked Wallaby"],
         "range": ["#8dd3c7", "#ffffb3", "#bebada", "#fb8072", "#80b1d3", "#fdb462", "#b3de69", "#fccde5", "#d9d9d9", "#bc80bd", "#ccebc5", "#ffed6f"]
       }
     ],

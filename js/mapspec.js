@@ -4,7 +4,7 @@ const mapSpec = {
     "width": 1000,
     "height": 550,
     "title": {
-        "text": "Victorian Macropodnae Sightings",
+        "text": "Victorian Macropodinae Sightings",
         "fontSize": 24,
         "fontWeight": "bold",
         "font": "Arial",
